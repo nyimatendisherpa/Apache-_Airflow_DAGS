@@ -1,0 +1,421 @@
+[2025-01-17T05:23:17.904+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:23:17.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:23:18.166+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:23:18.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:26:48.337+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:26:48.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:26:48.782+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:26:48.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:34:21.831+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:34:21.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:34:21.928+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:21.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:34:22.862+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:34:26.157+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.154+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:weekly_dag
+[2025-01-17T05:34:26.268+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.267+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:weekly_dag
+[2025-01-17T05:34:26.334+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.334+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:weekly_dag
+[2025-01-17T05:34:26.399+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.398+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:weekly_dag
+[2025-01-17T05:34:26.450+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.444+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:weekly_dag
+[2025-01-17T05:34:26.504+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.503+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:weekly_dag
+[2025-01-17T05:34:26.576+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.575+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:weekly_dag
+[2025-01-17T05:34:26.579+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:34:26.923+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:26.916+0000] {dag.py:3262} INFO - Creating ORM DAG for weekly_dag
+[2025-01-17T05:34:27.244+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:34:27.243+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:34:27.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 5.695 seconds
+[2025-01-17T05:35:24.007+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:24.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:35:24.113+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:24.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:24.771+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:25.695+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:25.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:35:27.042+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:27.031+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:35:28.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 4.054 seconds
+[2025-01-17T05:35:58.423+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:58.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:35:58.457+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:58.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:58.544+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:35:58.683+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:58.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:35:58.856+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:35:58.851+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:35:58.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 0.573 seconds
+[2025-01-17T05:36:29.244+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:36:29.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:36:29.259+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:36:29.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:36:29.297+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:36:29.354+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:36:29.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:36:29.403+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:36:29.403+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:36:29.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 0.217 seconds
+[2025-01-17T05:37:48.594+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:37:48.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:37:48.763+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:37:48.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:37:49.209+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:37:49.760+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:37:49.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:37:50.027+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:37:50.024+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:37:50.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 2.193 seconds
+[2025-01-17T05:40:13.261+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:40:13.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:40:13.337+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:40:13.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:40:13.695+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:40:14.731+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:40:14.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T05:40:15.587+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:40:15.571+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T05:40:16.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 3.187 seconds
+[2025-01-17T05:41:52.603+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:41:52.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:41:52.719+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:41:52.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:41:59.351+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:47:08.853+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:47:08.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:47:09.121+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:47:09.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:47:15.983+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:53:13.412+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:53:13.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:53:13.696+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:53:13.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:53:25.673+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T05:57:17.978+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T05:57:18.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T05:57:18.625+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:57:18.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T05:58:18.950+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:57:56.518+0000] {timeout.py:68} ERROR - Process timed out, PID: 290
+[2025-01-17T05:58:44.600+0000] {logging_mixin.py:190} INFO - [2025-01-17T05:58:33.349+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weekly.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weekly.py", line 17, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 698, in __init__
+    self.timetable = create_timetable(schedule, self.timezone)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 246, in create_timetable
+    return CronDataIntervalTimetable(interval, timezone)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 74, in __init__
+    descriptor = ExpressionDescriptor(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/cron_descriptor/ExpressionDescriptor.py", line 76, in __init__
+    self._expression_parts = parser.parse()
+                             ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/cron_descriptor/ExpressionParser.py", line 116, in parse
+    self.normalize_expression(parsed)
+  File "/home/airflow/.local/lib/python3.12/site-packages/cron_descriptor/ExpressionParser.py", line 166, in normalize_expression
+    expression_parts[5] = re.sub(r'(^\d)|([^#/\s]\d)', digit_replace, expression_parts[5])
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_compiler.py", line 750, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 979, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 494, in _parse_sub
+    if len(item) != 1:
+       ^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 164, in __len__
+    def __len__(self):
+    
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/weekly.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.4/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.4/best-practices.html#reducing-dag-complexity, PID: 290
+[2025-01-17T05:58:44.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:00:07.957+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:00:08.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:00:08.283+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:00:08.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:01:06.807+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:04:04.591+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:04:04.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:04:04.797+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:04:04.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:04:08.503+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:11:23.260+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:11:23.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:11:23.390+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:11:23.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:11:26.933+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:20.617+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:20.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:20:20.684+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:20.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:21.398+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:23.773+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:23.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T06:20:24.218+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:24.212+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T06:20:24.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 3.973 seconds
+[2025-01-17T06:20:55.482+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:55.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:20:55.529+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:55.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:55.744+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:20:56.124+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:56.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T06:20:56.588+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:20:56.588+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T06:20:56.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 1.414 seconds
+[2025-01-17T06:21:51.542+0000] {processor.py:186} INFO - Started process (PID=407) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:21:51.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:21:53.463+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:21:52.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:22:28.384+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:22:26.696+0000] {timeout.py:68} ERROR - Process timed out, PID: 407
+[2025-01-17T06:23:11.930+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:22:38.167+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weekly.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weekly.py", line 17, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 698, in __init__
+    self.timetable = create_timetable(schedule, self.timezone)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 246, in create_timetable
+    return CronDataIntervalTimetable(interval, timezone)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 79, in __init__
+    if len(croniter(self._expression).expanded) > 5:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 271, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(
+                                               ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 1032, in expand
+    return cls._expand(expr_format, hash_id=hash_id,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 887, in _expand
+    t = re.sub(r'^\*(\/.+)$', r'%d-%d\1' % (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_compiler.py", line 750, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 979, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/re/_parser.py", line 512, in _parse
+    def _parse(source, state, verbose, nested, first=False):
+    
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/weekly.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.4/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.4/best-practices.html#reducing-dag-complexity, PID: 407
+[2025-01-17T06:23:14.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:23:43.571+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 928, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 648, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(ParseImportError.filename).all()]
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/query.py", line 2773, in all
+    return self._iter().all()
+           ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-01-17T06:30:47.849+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:30:47.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:30:48.221+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:30:48.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:34:09.763+0000] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:34:09.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:34:09.823+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:34:09.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:34:12.965+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:39:28.065+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:39:28.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:39:28.240+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:39:28.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:39:32.296+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:44:53.413+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:44:53.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:44:54.537+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:44:54.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:45:18.581+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:47:49.194+0000] {processor.py:186} INFO - Started process (PID=507) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:47:49.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:47:49.677+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:47:49.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:47:51.488+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:11.359+0000] {processor.py:186} INFO - Started process (PID=523) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:11.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:57:11.422+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:11.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:12.622+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:16.232+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:16.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T06:57:16.629+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:16.628+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T06:57:16.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 5.552 seconds
+[2025-01-17T06:57:47.732+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:47.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:57:47.746+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:47.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:47.811+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:57:48.072+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:48.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T06:57:48.462+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:57:48.457+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T06:57:48.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 0.938 seconds
+[2025-01-17T06:58:18.827+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:58:18.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:58:18.839+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:58:18.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:58:18.869+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:58:18.976+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:58:18.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T06:58:19.052+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:58:19.051+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T06:58:19.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 0.299 seconds
+[2025-01-17T06:59:40.255+0000] {processor.py:186} INFO - Started process (PID=576) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T06:59:40.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T06:59:40.636+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:59:40.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T06:59:42.155+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T06:59:55.514+0000] {logging_mixin.py:190} INFO - [2025-01-17T06:59:54.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T07:01:05.617+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:01:03.833+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T07:04:31.333+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T07:04:31.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T07:04:32.282+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:04:31.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T07:04:52.198+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T07:08:00.755+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T07:08:00.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T07:08:00.779+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:08:00.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T07:08:00.918+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
+[2025-01-17T07:08:02.007+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:08:02.006+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-17T07:08:02.125+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:08:02.124+0000] {dag.py:4180} INFO - Setting next_dagrun for weekly_dag to 2025-01-06 06:00:00+00:00, run_after=2025-01-13 06:00:00+00:00
+[2025-01-17T07:08:02.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weekly.py took 1.636 seconds
+[2025-01-17T07:10:51.673+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/weekly.py
+[2025-01-17T07:10:52.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weekly.py for tasks to queue
+[2025-01-17T07:10:53.784+0000] {logging_mixin.py:190} INFO - [2025-01-17T07:10:53.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weekly.py
+[2025-01-17T07:11:12.171+0000] {processor.py:925} INFO - DAG(s) 'weekly_dag' retrieved from /opt/airflow/dags/weekly.py
